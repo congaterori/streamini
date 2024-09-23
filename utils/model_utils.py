@@ -12,9 +12,9 @@ def is_arabic(text):
 def create_model(model_name, system_prompt):
     """Creates and configures a GenerativeModel instance."""
     generation_config = {
-        "temperature": 0.2,
-        "top_p": 0.45,
-        "top_k": 25,
+        "temperature": 0.7,
+        "top_p": 0.85,
+        "top_k": 60,
         "max_output_tokens": 8192,
         "response_mime_type": "text/plain",
     }
