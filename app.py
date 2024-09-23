@@ -187,7 +187,15 @@ with st.spinner("Waiting for response..."):
     )
     uploaded_document = st.sidebar.file_uploader(
         "Choose a document...",
-        type=["xml", "py", "txt", "html", "js", "css", "pdf", "ps1"],
+        type=[
+    "xml", "py", "txt", "html", "js", "css", "ps1", 
+    "json", "md", "yml", "yaml", "ts", "tsx", "c", "cpp", 
+    "h", "hpp", "java", "cs", "php", "pl", "rb", "sh", 
+    "bat", "ini", "log", "toml", "rs", "go", "r", "jl", 
+    "lua", "swift", "sql", "asm", "vb", "vbs", "jsx", 
+    "svelte", "vue", "scss", "less", "tex", "rmd", "m", 
+    "scala", "erl", "hs", "f90", "pas", "groovy", "pdf"
+                ],
     )
     document_comment = st.sidebar.text_area("Add a comment for the document (required):")
     send_document_button = st.sidebar.button("Send Document")
