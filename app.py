@@ -37,7 +37,7 @@ model = config["model"]
 models = config["models"]
 
 st.write(
-    """<h1 class="glowing-text" style="color: #f073f0;">Streamini ✨</h1>""",
+    """<h1 class="glowing-text" style="color: #f073f0;">Streamini ✨ [DEMO]</h1>""",
     unsafe_allow_html=True,
 )
 
