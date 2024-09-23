@@ -15,7 +15,7 @@ from utils.model_utils import (
     handle_document_upload,
 )
 # Set up Streamlit page configuration
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide", page_title="Streamini - Gemini Bot", page_icon=":sparkles:")
 
 SESSION_DIR = "session/assistant/"
 
