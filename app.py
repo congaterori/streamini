@@ -37,7 +37,7 @@ model = config["model"]
 models = config["models"]
 
 st.write(
-    """<h1 class="glowing-text" style="color: #f073f0;">Streamini ✨ [DEMO]</h1>""",
+    """<h1 class="glowing-text" style="color: #c179f2;">Streamini ✨ [DEMO]</h1>""",
     unsafe_allow_html=True,
 )
 
@@ -63,13 +63,13 @@ st.markdown(
         }}
         @keyframes glow {{
         0% {{
-            text-shadow: 0 0 5px #f073f0;
+            text-shadow: 0 0 5px #c179f2;
         }}
         50% {{
-            text-shadow: 0 0 20px #f073f0, 0 0 30px #f073f0;
+            text-shadow: 0 0 20px #c179f2, 0 0 30px #c179f2;
         }}
         100% {{
-            text-shadow: 0 0 5px #f073f0;
+            text-shadow: 0 0 5px #c179f2;
         }}
         }}
     </style>
